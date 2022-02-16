@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="ball">
       <h1 className="count" 
-      onDoubleCick={() => 
+      onDoubleClick={() => 
       { alert("cant edit it") }}
       >
       {count}
